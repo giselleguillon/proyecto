@@ -1,0 +1,47 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); </style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    
+height: 80px;
+width: 100%;
+padding: 0px 50px ;
+background-color:rgb(215, 135, 148);
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: 'Sevillana', cursive;
+}
+
+
+.nave ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+
+
+
+}
+
+
+.imagen{
+    display: flex;
+    width: 200px;
+    height: 80px;
+}
+
+.carrito{
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+
