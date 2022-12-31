@@ -1,10 +1,10 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); </style>
-
-
+<style> @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap'); </style>
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Dancing Script',cursive;
 }
 
 
@@ -12,17 +12,17 @@
 .header{
     
 height: 80px;
-width: 100%;
-padding: 0px 50px ;
+
+padding: 0 50px ;
 background-color:rgb(215, 135, 148);
 display: flex;
 align-items: center;
 justify-content: space-between;
-font-family: 'Sevillana', cursive;
+
 }
 
 
-.nave ul{
+ul {
     display: flex;
     list-style: none;
     gap: 100px;
@@ -45,3 +45,9 @@ font-family: 'Sevillana', cursive;
 
 }
 
+.navlink{
+    font-family: 'Dancing Script',cursive;
+    font-size: 25px;
+    color: rgb(245, 206, 212);
+    text-decoration: none;
+}
